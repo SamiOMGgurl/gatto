@@ -1,0 +1,34 @@
+body
+{
+    background: url('background.jpg');
+    text-align: center;
+}
+
+#ts1
+{
+    height: 40px;
+    width: 40px;
+}
+
+#ts
+{
+    height: 60px;
+    width: 60px;
+    bottom: 0px;
+    position: fixed;
+    left: 612px;
+}
+
+canvas 
+{
+   animation-name: example;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+   from {box-shadow: 1px 1px 38px black;}
+   to {box-shadow: 1px 1px 38px black;}
+}
+
